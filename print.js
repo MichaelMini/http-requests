@@ -1,4 +1,4 @@
-function getAndPrintHTMLChunks () {
+function getAndPrintHTML () {
 	var https = require('https');
 
   var requestOptions = {
@@ -27,4 +27,4 @@ function getAndPrintHTMLChunks () {
 
 }
 
-getAndPrintHTMLChunks();
+getAndPrintHTML();
