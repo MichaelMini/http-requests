@@ -5,9 +5,9 @@ var requestOptions = {
   path: '/http-examples/step6/uppercase.html'
 };
 
-function printHTML (html) {
+function printLowercaseHTML (html) {
 	var allLower = html.toLowerCase();
   console.log(allLower);
 }
 
-getHTML(requestOptions, printHTML);
+getHTML(requestOptions, printLowercaseHTML);
