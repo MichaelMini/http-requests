@@ -5,9 +5,9 @@ var requestOptions = {
   path: '/http-examples/step6/uppercase.html'
 };
 
-function printHTML (html) {
+function printUppercaseHTML (html) {
 	var allCaps = html.toUpperCase();
   console.log(allCaps);
 }
 
-getHTML(requestOptions, printHTML);
+getHTML(requestOptions, printUppercaseHTML);
